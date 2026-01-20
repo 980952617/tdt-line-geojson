@@ -1,6 +1,6 @@
 {
   "name": "tdt-line-geojson",
-  "version": "1.5.0",
+  "version": "1.4.0",
   "description": "天地图(Tianditu) GeoJSON 折线覆盖物库，基于Canvas实现的高性能折线绘制组件",
   "main": "index.js",
   "types": "index.d.ts",
@@ -49,12 +49,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/tdt-line-geojson.git"
+    "url": "git+https://github.com/980952617/tdt-line-geojson.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/tdt-line-geojson/issues"
+    "url": "https://github.com/980952617/tdt-line-geojson/issues"
   },
-  "homepage": "https://github.com/your-username/tdt-line-geojson#readme",
+  "homepage": "https://github.com/980952617/tdt-line-geojson#readme",
   "peerDependencies": {
     "tianditu": "^4.0.0"
   },
