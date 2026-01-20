@@ -1,0 +1,43 @@
+# 测试文件
+test/
+*.test.js
+__tests__/
+
+# 构建工具配置
+webpack.config.js
+rollup.config.js
+vite.config.js
+
+# 开发环境文件
+.editorconfig
+.prettierrc
+.eslintrc.js
+.eslintignore
+
+# 文档生成文件
+docs/
+*.mdx
+
+# 示例文件
+examples/
+demo/
+
+# CI/CD配置
+.travis.yml
+.github/
+.gitlab-ci.yml
+
+# 发布脚本（用户不需要）
+publish.sh
+publish.bat
+
+# 临时文件
+*.tmp
+*.temp
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db

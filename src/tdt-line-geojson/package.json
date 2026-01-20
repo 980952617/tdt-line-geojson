@@ -1,0 +1,71 @@
+{
+  "name": "tdt-line-geojson",
+  "version": "1.4.0",
+  "description": "天地图(Tianditu) GeoJSON 折线覆盖物库，基于Canvas实现的高性能折线绘制组件",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"No test required for tdt-line-geojson\"",
+    "build": "echo \"No build process needed\"",
+    "prepublishOnly": "npm run test",
+    "publish:patch": "npm version patch && npm publish",
+    "publish:minor": "npm version minor && npm publish",
+    "publish:major": "npm version major && npm publish"
+  },
+  "keywords": [
+    "tianditu",
+    "天地图",
+    "geojson",
+    "line",
+    "overlay",
+    "canvas",
+    "map",
+    "gis",
+    "地理信息系统",
+    "折线",
+    "覆盖物",
+    "javascript",
+    "typescript",
+    "webgis"
+  ],
+  "author": {
+    "name": "WB",
+    "email": "980952617@qq.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/tdt-line-geojson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/tdt-line-geojson/issues"
+  },
+  "homepage": "https://github.com/your-username/tdt-line-geojson#readme",
+  "peerDependencies": {
+    "tianditu": "^4.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "sideEffects": false
+}
