@@ -1,6 +1,6 @@
 {
   "name": "tdt-line-geojson",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "天地图(Tianditu) GeoJSON 折线覆盖物库，基于Canvas实现的高性能折线绘制组件",
   "main": "index.js",
   "types": "index.d.ts",
